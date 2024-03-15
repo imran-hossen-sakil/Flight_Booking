@@ -8,7 +8,7 @@ function App() {
 
   return (
       <div className="">
-        <h1 className="text-blue-800 text-4xl text-center mt-6">Hey React js Developer</h1>
+        <h1 className="text-blue-800 font-bold text-4xl text-center mt-11">Hey React js Developer</h1>
       </div>
   )
 }
