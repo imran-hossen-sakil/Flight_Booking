@@ -7,6 +7,7 @@ import Navbar_section from './component/Navbar_section'
 import Hero_section from './component/Hero_section';
 import Travel_Support_section from './component/Travel_Support_section'
 import Login_section from './component/Login_section'
+import Registrar_section from './component/Registrar_section'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         < Travel_Support_section />
         < Best_travel_section />
         < Login_section />
+        < Registrar_section />
         < Footer_section />
         
       </>
