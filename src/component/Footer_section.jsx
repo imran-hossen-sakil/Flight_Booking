@@ -106,7 +106,7 @@ function Footer_section() {
                     </div>
                     </div>
                 </div>
-                <div className="bg-blue-800 w-80 mx-auto rounded-tl-full rounded-tr-full">
+                <div className="bg-blue-800 w-96 mx-auto rounded-tl-full rounded-tr-full">
                     <div className="container px-2 py-2 mx-auto">
                         <p className="text-sm text-white capitalize xl:text-center">© 2024 All rights reserved </p>
                     </div>
