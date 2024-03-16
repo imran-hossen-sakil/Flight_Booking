@@ -2,18 +2,25 @@ import { useState } from 'react'
 import './App.css'
 import Footer_section from './component/Footer_section'
 import Best_travel_section from './component/Best_travel_section'
+import Top_navbar_section from './component/Top_navbar_section'
+import Navbar_section from './component/Navbar_section'
+import Hero_section from './component/Hero_section';
+import Travel_Support_section from './component/Travel_Support_section'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <div className="">
-        <h1 className="text-blue-800 font-bold text-4xl text-center mt-11">Hey React js Developer</h1>
+      <>
 
+        < Top_navbar_section />
+        < Navbar_section />
+        < Hero_section />
+        < Travel_Support_section />
         < Best_travel_section />
-
         < Footer_section />
-      </div>
+        
+      </>
       
   )
 }
