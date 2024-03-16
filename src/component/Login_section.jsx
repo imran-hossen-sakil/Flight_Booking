@@ -184,15 +184,14 @@ function Login_section() {
                 >
                   <button
                     href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
-                  >
+                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1">
                     <img
                       className="max-w-[25px]"
                       src="https://ucarecdn.com/8f25a2ba-bdcf-4ff1-b596-088f330416ef/"
                       alt="Google"
                     />
                   </button>
-                  <button
+                  {/* <button
                     href="#"
                     className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
                   >
@@ -200,16 +199,6 @@ function Login_section() {
                       className="max-w-[25px]"
                       src="https://ucarecdn.com/95eebb9c-85cf-4d12-942f-3c40d7044dc6/"
                       alt="Linkedin"
-                    />
-                  </button>
-                  <button
-                    href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
-                  >
-                    <img
-                      className="max-w-[25px] filter dark:invert"
-                      src="https://ucarecdn.com/be5b0ffd-85e8-4639-83a6-5162dfa15a16/"
-                      alt="Github"
                     />
                   </button>
                   <button
@@ -227,15 +216,8 @@ function Login_section() {
                     className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1">
                     <img className="max-w-[25px] dark:gray-100"
                       src="https://ucarecdn.com/82d7ca0a-c380-44c4-ba24-658723e2ab07/"/>
-                  </button>
-
-                  <button href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1">
-                    <img className="max-w-[25px]"
-                      src="https://ucarecdn.com/3277d952-8e21-4aad-a2b7-d484dad531fb/"/>
-                  </button>
+                  </button> */}
                 </div>
-
                 <div className="text-gray-500 flex text-center flex-col mt-4 items-center text-sm">
                 </div>
               </div>
