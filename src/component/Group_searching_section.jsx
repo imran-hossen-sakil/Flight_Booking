@@ -3,7 +3,7 @@ import React from 'react'
 function Group_searching_section() {
   return (
     <div>
-      <div class="max-w-screen-lg mx-auto border bg-gray-100">
+      <div class="max-w-screen-lg mx-auto border bg-gray-50">
       <nav className="lg:px-16 px-6 bg-slate-300 shadow-md flex flex-wrap rounded-br-full rounded-bl-full items-center lg:py-0 py-2">
           <div className="flex-1 flex justify-between items-center">
             <a href="#" className="flex text-lg font-semibold">
@@ -24,16 +24,16 @@ function Group_searching_section() {
           <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
             <nav>
               <ul className="text-xl text-center items-center gap-x-5 pt-6 pb-6 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
-                <li className="pt-4 lg:py-0 ">
+                {/* <li className="pt-4 lg:py-0 ">
                   <a className="pt-4 text-black hover:pb-4 hover:border-b-4 hover:border-yellow-400"
-                    href="#">Sing up
+                    href="#">text
                   </a>
                 </li>
                 <li className="py-2 lg:py-0 ">
                   <a className="text-black hover:pb-4 hover:border-b-4 hover:border-yellow-400"
-                    href="#">Sing in
+                    href="#">text
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -45,49 +45,35 @@ function Group_searching_section() {
 
 
       <div class="">
-       <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-20">
+       <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-10">
         
-        <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-gray-800">
+        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div class="space-y-2">
-                <div
-                    class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-200">
-                    <span>Total Products</span>
+                <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                    <span>One-way</span>
                 </div>
+            </div>
 
-                <div class="text-3xl">
-                    50
-                </div>
+        </div>
+
+        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+            <div class="space-y-2">
+                  <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+
+                    <span>Round-trip</span>
+                  </div>
 
             </div>
 
         </div>
 
-        <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-gray-800">
+        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div class="space-y-2">
-                <div
-                    class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-200">
-
-                    <span>Product Inventory</span>
-                </div>
-
-                <div class="text-3xl">
-                    221
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-gray-800">
-            <div class="space-y-2">
-                <div
-                    class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-200">
-
-                    <span>Average price</span>
-                </div>
-
-                <div class="text-3xl">
-                    224.75
+                 <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
+                    <span>Multi-City</span>
                 </div>
 
             </div>
@@ -105,7 +91,7 @@ function Group_searching_section() {
         <div class="grid grid-cols-1 md:grid-cols-12">
 
 
-        <div class="bg-white md:col-span-4 p-10 text-gray-900">
+        <div class="bg-gray-50 md:col-span-4 p-10 text-gray-900">
         <ul class="flex flex-col gap-2 max-w-[280px] mx-auto mt-24">
 
 <li>
@@ -338,67 +324,60 @@ function Group_searching_section() {
         <form action="https://fabform.io/f/{form-id}" method="post" class="md:col-span-8 p-10">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-first-name">
-                        First Name
+                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    Leaving form
                     </label>
-                    <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                        id="grid-first-name" type="text" placeholder="Jane" />
-                    <p className="text-red-500 text-xs italic">Please fill out this field.</p>
                 </div>
                 <div className="w-full md:w-1/2 px-3">
-                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-last-name">
-                        Last Name
+                <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                Going to
                     </label>
-                    <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-last-name" type="text" placeholder="Doe"/>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full px-3">
-                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password">
-                        Email Address
+                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    Departure Date
+                    
                     </label>
-                    <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-email" type="email" placeholder="********@*****.**" />
+                </div>
+                <div className="w-full md:w-1/2 px-3">
+                <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                        First Name
+                    </label>
+                </div>
+            </div>
+            <div className="flex flex-wrap -mx-3 mb-6">
+                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    Departure Date
+                    
+                    </label>
+                </div>
+                <div className="w-full md:w-1/2 px-3">
+                {/* <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                        First Name
+                    </label> */}
                 </div>
             </div>
 
             <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full px-3">
-                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password">
-                        Your Message
-                    </label>
-                    <textarea rows="10"
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
-                </div>
+                
                 <div className="flex justify-between w-full px-3">
-                    <div className="md:flex md:items-center">
-                        <label className="block text-gray-500 font-bold">
-                            <input className="mr-2 leading-tight" type="checkbox" />
-                            <span className="text-sm">
-                                Send me your newsletter!
-                            </span>
-                        </label>
-                    </div>
+                  <p></p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <button
-                        className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                        className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded-full"
                         type="submit">
-                        Send Message
+                          
+                       Search for...
                     </button>
-                    
                 </div>
     
             </div>
         </form>
        </div>
-      </div>
+      </div><br /><br />
     </div>
   )
 }
