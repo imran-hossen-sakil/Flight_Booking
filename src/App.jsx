@@ -7,7 +7,7 @@ import Hero_section from './component/Hero_section';
 import Travel_Support_section from './component/Travel_Support_section'
 import Registrar_section from './component/Registrar_section'
 import Group_searching_section from './component/Group_searching_section'
-import Offers_section from './component/Offers_section'
+import Login_section from './component/Login_section'
 
 
 
@@ -25,7 +25,7 @@ function App() {
         < Travel_Support_section />
         < Best_travel_section />
         < Registrar_section />
-        < Offers_section />
+
 
 
   
