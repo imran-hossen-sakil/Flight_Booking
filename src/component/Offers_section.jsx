@@ -13,7 +13,7 @@ function Offers_section() {
     <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div className="rounded-3xl p-8 ring-1 xl:p-10 ring-yellow-400">
         <h3 id="tier-freelancer" className="text-lg font-semibold leading-8 text-orange-600">Offer's Name</h3>
-        <p className="mt-4 text-sm leading-6 text-green-600">The essentials to provide your best work for clients.</p>
+        <p className="mt-4 text-sm leading-6 text-green-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ex?</p>
         <p className="mt-6 flex items-baseline gap-x-1">
 
           <span className="text-4xl font-bold tracking-tight text-pink-900">$500</span>
@@ -62,7 +62,7 @@ function Offers_section() {
       </div>
       <div class="rounded-3xl p-8 ring-1 xl:p-10 ring-gray-700">
         <h3 id="tier-startup" class="text-lg font-semibold leading-8 text-gray-900">Offer's Name</h3>
-        <p class="mt-4 text-sm leading-6 text-cyan-600">A plan that scales with your rapidly growing business.</p>
+        <p class="mt-4 text-sm leading-6 text-cyan-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ex?</p>
         <p class="mt-6 flex items-baseline gap-x-1">
 
           <span class="text-4xl font-bold tracking-tight text-yellow-700">$900</span>
@@ -111,7 +111,7 @@ function Offers_section() {
       </div>
       <div class="rounded-3xl p-8 ring-1 xl:p-10 bg-blue-600 ring-blue-400">
         <h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-white">Offer's Name</h3>
-        <p class="mt-4 text-sm leading-6 text-gray-300">Dedicated support and infrastructure for your company.</p>
+        <p class="mt-4 text-sm leading-6 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ex?</p>
         <p class="mt-6 flex items-baseline gap-x-1">
           <span class="text-4xl font-bold tracking-tight text-white">Custom</span>
         </p>
