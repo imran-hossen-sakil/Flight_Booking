@@ -4,16 +4,16 @@ function Contact_section() {
   return (
     <div>
 
-<div class="my-6">
-            <div class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
+<div className="my-6">
+            <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
                 <div>
-                    <h1 class="text-3xl font-extrabold">Compuny Name</h1>
-                    <p class="text-sm text-gray-400 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus nesciunt architecto voluptatibus, dolore tempora maiores quasi earum ratione nobis accusamus voluptatem vel a, molestiae omnis quas natus ea dolorum porro?</p>
-                    <div class="mt-12">
-                        <h2 class="text-lg font-extrabold">Email</h2>
-                        <ul class="mt-3">
-                            <li class="flex items-center">
-                                <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <h1 className="text-3xl font-extrabold">Compuny Name</h1>
+                    <p className="text-sm text-gray-400 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus nesciunt architecto voluptatibus, dolore tempora maiores quasi earum ratione nobis accusamus voluptatem vel a, molestiae omnis quas natus ea dolorum porro?</p>
+                    <div className="mt-12">
+                        <h2 className="text-lg font-extrabold">Email</h2>
+                        <ul className="mt-3">
+                            <li className="flex items-center">
+                                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 479.058 479.058">
                                         <path
@@ -21,17 +21,17 @@ function Contact_section() {
                                             data-original="#000000" />
                                     </svg>
                                 </div>
-                                <a target="blank" href="https://veilmail.io/e/FkKh7o" class="text-[#007bff] text-sm ml-3">
-                                    <small class="block">Mail</small>
-                                    <strong>demo@gmail.com</strong>
+                                <a target="blank" href="https://veilmail.io/e/FkKh7o" className="text-[#007bff] text-sm ml-3">
+                                    <small className="block">Mail</small>
+                                    <strong>@gmail.com</strong>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="mt-12">
-                        <h2 class="text-lg font-extrabold">Socials</h2>
-                        <ul class="flex mt-3 space-x-4">
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <div className="mt-12">
+                        <h2 className="text-lg font-extrabold">Socials</h2>
+                        <ul className="flex mt-3 space-x-4">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ function Contact_section() {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 511 512">
@@ -51,7 +51,7 @@ function Contact_section() {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 24 24">
@@ -65,22 +65,22 @@ function Contact_section() {
                     </div>
                 </div>
               
-                <form action="https://fabform.io/f/xxxxx" method="post" class="ml-auo space-y-4">
+                <form action="https://fabform.io/f/xxxxx" method="post" className="ml-auo space-y-4">
                     <input type='text' name ="name" placeholder='Name'
-                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
                     <input type='email' 
                            name='email'
                            placeholder='Email'
-                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
                     <input type='text' placeholder='Subject'
-                     name='subject' class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                     name='subject' className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
                     <textarea placeholder='Message' rows="6"
                               name='message'
-                        class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"></textarea>
-                    <button type="submit" class="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+                        className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"></textarea>
+                    <button type="submit" className="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
                 </form>
             </div>
-</div>
+        </div>
       
     </div>
   )

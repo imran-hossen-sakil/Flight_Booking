@@ -8,7 +8,8 @@ import Travel_Support_section from './component/Travel_Support_section'
 import Registrar_section from './component/Registrar_section'
 import Group_searching_section from './component/Group_searching_section'
 import Offers_section from './component/Offers_section'
-import Contact_section from './component/Contact_section'
+
+
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
         < Best_travel_section />
         < Registrar_section />
         < Offers_section />
-        < Contact_section />
+
 
   
       </>
