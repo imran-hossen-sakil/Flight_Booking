@@ -3,7 +3,7 @@ import React from 'react'
 function Group_searching_section() {
   return (
     <div>
-      <div class="max-w-screen-lg mx-auto border bg-gray-50">
+      <div className="max-w-screen-lg mx-auto border bg-gray-50">
       <nav className="lg:px-16 px-6 bg-slate-300 shadow-md flex flex-wrap rounded-br-full rounded-bl-full items-center lg:py-0 py-2">
           <div className="flex-1 flex justify-between items-center">
             <a href="#" className="flex text-lg font-semibold">
