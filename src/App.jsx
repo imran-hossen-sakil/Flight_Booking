@@ -17,13 +17,11 @@ function App() {
         < Top_navbar_section />
         < Navbar_section />
         < Hero_section />
-        <Group_searching_section />
+        < Group_searching_section />
         < Travel_Support_section />
         < Best_travel_section />
         < Registrar_section />
-
-
-        
+  
       </>
       
   )

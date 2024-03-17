@@ -40,33 +40,25 @@ function Group_searching_section() {
       </nav>
 
 
-
-
-
-
       <div class="">
        <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-10">
         
         <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div class="space-y-2">
                 <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
                     <span>One-way</span>
                 </div>
             </div>
-
         </div>
 
         <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div class="space-y-2">
                   <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
-
                     <span>Round-trip</span>
                   </div>
-
             </div>
-
         </div>
 
         <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
@@ -75,9 +67,7 @@ function Group_searching_section() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
                     <span>Multi-City</span>
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>
@@ -89,8 +79,7 @@ function Group_searching_section() {
 
 
         <div class="grid grid-cols-1 md:grid-cols-12">
-
-
+            
         <div class="bg-gray-50 md:col-span-4 p-10 text-gray-900">
         <ul class="flex flex-col gap-2 max-w-[280px] mx-auto mt-24">
 
@@ -338,7 +327,6 @@ function Group_searching_section() {
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                     Departure Date
-                    
                     </label>
                 </div>
                 <div className="w-full md:w-1/2 px-3">
