@@ -12,7 +12,7 @@ function Offers_section() {
     </div>
     <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div className="rounded-3xl p-8 ring-1 xl:p-10 ring-yellow-400">
-        <h3 id="tier-freelancer" className="text-lg font-semibold leading-8 text-orange-600">Freelancer</h3>
+        <h3 id="tier-freelancer" className="text-lg font-semibold leading-8 text-orange-600">Offer's Name</h3>
         <p className="mt-4 text-sm leading-6 text-green-600">The essentials to provide your best work for clients.</p>
         <p className="mt-6 flex items-baseline gap-x-1">
 
@@ -35,6 +35,12 @@ function Offers_section() {
             Lorem ipsum dolor sit amet.
           </li>
           <li className="flex gap-x-3">
+            <svg className="h-6 w-5 flex-none text-yellow-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Lorem ipsum dolor sit amet.
+          </li>
+          <li className="flex gap-x-3">
             <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
             </svg>
@@ -46,10 +52,16 @@ function Offers_section() {
             </svg>
             Lorem ipsum dolor sit amet.
           </li>
+          <li className="flex gap-x-3">
+            <svg className="h-6 w-5 flex-none text-yellow-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Lorem ipsum dolor sit amet.
+          </li>
         </ul>
       </div>
       <div class="rounded-3xl p-8 ring-1 xl:p-10 ring-gray-700">
-        <h3 id="tier-startup" class="text-lg font-semibold leading-8 text-gray-900">Startup</h3>
+        <h3 id="tier-startup" class="text-lg font-semibold leading-8 text-gray-900">Offer's Name</h3>
         <p class="mt-4 text-sm leading-6 text-cyan-600">A plan that scales with your rapidly growing business.</p>
         <p class="mt-6 flex items-baseline gap-x-1">
 
@@ -89,10 +101,16 @@ function Offers_section() {
             </svg>
             Lorem ipsum dolor sit amet.
           </li>
+          <li className="flex gap-x-3">
+            <svg className="h-6 w-5 flex-none text-yellow-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Lorem ipsum dolor sit amet.
+          </li>
         </ul>
       </div>
       <div class="rounded-3xl p-8 ring-1 xl:p-10 bg-blue-600 ring-blue-400">
-        <h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-white">Enterprise</h3>
+        <h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-white">Offer's Name</h3>
         <p class="mt-4 text-sm leading-6 text-gray-300">Dedicated support and infrastructure for your company.</p>
         <p class="mt-6 flex items-baseline gap-x-1">
           <span class="text-4xl font-bold tracking-tight text-white">Custom</span>
