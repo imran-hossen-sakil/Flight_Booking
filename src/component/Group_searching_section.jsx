@@ -310,13 +310,14 @@ function Group_searching_section() {
         </ul>
 
         </div>
-        <form action="https://fabform.io/f/{form-id}" method="post" class="md:col-span-8 p-10">
+        <form action="" method="post" class="md:col-span-8 p-10">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                     Leaving form
                     </label>
                 </div>
+                <p className="relative"><i class="fa-solid fa-arrows-turn-to-dots fa-flip"></i></p>
                 <div className="w-full md:w-1/2 px-3">
                 <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                 Going to
