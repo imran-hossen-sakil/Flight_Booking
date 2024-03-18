@@ -43,29 +43,29 @@ function Group_searching_section() {
       <div className="">
        <div className="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-10">
         
-        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+        <div className="relative cursor-pointer p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div className="space-y-2">
                 <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                    <span>One-way</span>
+                    <span className='cursor-pointer'>One-way</span>
                 </div>
             </div>
         </div>
 
-        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+        <div className="relative cursor-pointer p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div className="space-y-2">
                   <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
-                    <span>Round-trip</span>
+                    <span className='cursor-pointer'>Round-trip</span>
                   </div>
             </div>
         </div>
 
-        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+        <div className="relative  p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div className="space-y-2">
                  <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
-                    <span>Multi-City</span>
+                    <span className='cursor-pointer'>Multi-City</span>
                 </div>
             </div>
         </div>
@@ -313,132 +313,48 @@ function Group_searching_section() {
         <form action="" method="post" className="md:col-span-8 p-10">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                
-                    <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-gray-200 focus:border-gray-500">
                     <option value="">Leaving form &#8595;</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Albania</option>
+                    <option value="">Algeria</option>
+                    <option value="">Andorra</option>
+                    <option value="">Angola</option>
+                    <option value="">Antigua and Barbuda</option>
+                    <option value="">Argentina</option>
+                    <option value="">Armenia</option>
+                    <option value="">Australia</option>
+                    <option value="">Austria</option>
+                    <option value="">Azerbaijan</option>
+                    <option value="">Bahamas</option>
+                    <option value="">Bahrain</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Barbados</option>
+                    <option value="">Belarus</option>
                     </select>
                 </div>
 
                 <div className="w-full md:w-1/2 px-3">
-                <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    <option value="">Going to &#8595;</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    <option value="">Country Name</option>
-                    </select>
+                <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-gray-200 focus:border-gray-500">
+                    <option className='p-2' value="">Going to &#8595;</option>
+                    <option value="">Leaving form &#8595;</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Albania</option>
+                    <option value="">Algeria</option>
+                    <option value="">Andorra</option>
+                    <option value="">Angola</option>
+                    <option value="">Antigua and Barbuda</option>
+                    <option value="">Argentina</option>
+                    <option value="">Armenia</option>
+                    <option value="">Australia</option>
+                    <option value="">Austria</option>
+                    <option value="">Azerbaijan</option>
+                    <option value="">Bahamas</option>
+                    <option value="">Bahrain</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Barbados</option>
+                    <option value="">Belarus</option>
+                </select>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
@@ -456,13 +372,16 @@ function Group_searching_section() {
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    Main destination place
+                    Main destination place <br /> <br /> <input className='bg-gray-50 p-2 border-white rounded-2xl' type="text" name="" id="" />
+                    <input id="search-input" class="block w-full px-4 py-2 text-gray-800 border rounded-md  border-gray-300 focus:outline-none" type="text" placeholder="Search items" autocomplete="off"/>
                     </label>
                 </div>
                 <div className="w-full md:w-1/2 px-3">
-                {/* <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+
+
+                <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                         First Name
-                    </label> */}
+                    </label>
                 </div>
             </div>
 
@@ -473,10 +392,9 @@ function Group_searching_section() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <button
                         className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded-full"
-                        type="submit">
-                          
-                          &#9992; Search for...
+                        type="submit">&#9992; Search for...
                     </button>
+                    
                 </div>
     
             </div>
