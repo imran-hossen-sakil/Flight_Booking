@@ -10,7 +10,7 @@ function Group_searching_section() {
               <div className="mt-2 text-White"></div>
             </a>
           </div>
-          <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+          <label for="menu-toggle" className="cursor-pointer lg:hidden block">
             <svg className="fill-current text-gray-900"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -40,31 +40,31 @@ function Group_searching_section() {
       </nav>
 
 
-      <div class="">
-       <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-10">
+      <div className="">
+       <div className="grid gap-4 lg:gap-8 md:grid-cols-3 p-8 pt-10">
         
-        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
-            <div class="space-y-2">
-                <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+            <div className="space-y-2">
+                <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
                     <span>One-way</span>
                 </div>
             </div>
         </div>
 
-        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
-            <div class="space-y-2">
-                  <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+            <div className="space-y-2">
+                  <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
                     <span>Round-trip</span>
                   </div>
             </div>
         </div>
 
-        <div class="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
-            <div class="space-y-2">
-                 <div class="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
+        <div className="relative p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
+            <div className="space-y-2">
+                 <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
                     <span>Multi-City</span>
                 </div>
             </div>
@@ -78,23 +78,23 @@ function Group_searching_section() {
 
 
 
-        <div class="grid grid-cols-1 md:grid-cols-12">
+        <div className="grid grid-cols-1 md:grid-cols-12">
             
-        <div class="bg-gray-50 md:col-span-4 p-10 text-gray-900">
-        <ul class="flex flex-col gap-2 max-w-[280px] mx-auto mt-24">
+        <div className="bg-gray-50 md:col-span-4 p-10 text-gray-900">
+        <ul className="flex flex-col gap-2 max-w-[280px] mx-auto mt-24">
 
 <li>
-    <details class="group">
+    <details className="group">
 
         <summary
-            class="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+            className="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
 
-            <span class="flex gap-2">
+            <span className="flex gap-2">
                 <span>
                 Any-flight
                 </span>
             </span>
-            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+            <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
@@ -102,32 +102,32 @@ function Group_searching_section() {
             </svg>
         </summary>
 
-        <article class="px-4 pb-4">
+        <article className="px-4 pb-4">
 
-            <ul class="flex flex-col gap-4 pl-2 mt-4">
+            <ul className="flex flex-col gap-4 pl-2 mt-4">
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
@@ -140,17 +140,17 @@ function Group_searching_section() {
 </li>
 
 <li>
-    <details class="group">
+    <details className="group">
 
         <summary
-            class="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+            className="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
 
-            <span class="flex gap-2">
+            <span className="flex gap-2">
                 <span>
                 2 Passengers
                 </span>
             </span>
-            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+            <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
@@ -158,32 +158,32 @@ function Group_searching_section() {
             </svg>
         </summary>
 
-        <article class="px-4 pb-4">
+        <article className="px-4 pb-4">
 
-            <ul class="flex flex-col gap-4 pl-2 mt-4">
+            <ul className="flex flex-col gap-4 pl-2 mt-4">
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
@@ -196,17 +196,17 @@ function Group_searching_section() {
 </li>
 
 <li>
-    <details class="group">
+    <details className="group">
 
         <summary
-            class="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+            className="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
 
-            <span class="flex gap-2">
+            <span className="flex gap-2">
                 <span>
                 Economy
                 </span>
             </span>
-            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+            <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
@@ -214,32 +214,32 @@ function Group_searching_section() {
             </svg>
         </summary>
 
-        <article class="px-4 pb-4">
+        <article className="px-4 pb-4">
 
-            <ul class="flex flex-col gap-4 pl-2 mt-4">
+            <ul className="flex flex-col gap-4 pl-2 mt-4">
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
@@ -252,17 +252,17 @@ function Group_searching_section() {
 </li>
 
 <li>
-    <details class="group">
+    <details className="group">
 
         <summary
-            class="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
+            className="flex items-center justify-between gap-2 p-2 font-medium marker:content-none hover:cursor-pointer">
 
-            <span class="flex gap-2">
+            <span className="flex gap-2">
                 <span>
                 Any-flight
                 </span>
             </span>
-            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+            <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
@@ -270,32 +270,32 @@ function Group_searching_section() {
             </svg>
         </summary>
 
-        <article class="px-4 pb-4">
+        <article className="px-4 pb-4">
 
-            <ul class="flex flex-col gap-4 pl-2 mt-4">
+            <ul className="flex flex-col gap-4 pl-2 mt-4">
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
                 </li>
 
 
-                <li class="flex gap-2">
+                <li className="flex gap-2">
                     <a href="#">
                         Text
                     </a>
@@ -310,38 +310,153 @@ function Group_searching_section() {
         </ul>
 
         </div>
-        <form action="" method="post" class="md:col-span-8 p-10">
+        <form action="" method="post" className="md:col-span-8 p-10">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    Leaving form
-                    
-                    </label>
+                
+                    <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <option value="">Leaving form &#8595;</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    </select>
                 </div>
 
                 <div className="w-full md:w-1/2 px-3">
-                <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                Going to
-                    </label>
+                <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <option value="">Going to &#8595;</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    <option value="">Country Name</option>
+                    </select>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    Departure Date
+                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    Departure Date <br /> <br /> <input className='bg-gray-200' type="date" name="" id="" />
                     </label>
                 </div>
-                <div className="w-full md:w-1/2 px-3">
-                <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                        First Name
+                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    Destination Date <br /> <br /> <input className='bg-gray-200' type="date" name="" id="" />
                     </label>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    Departure Date
-                    
+                    Main destination place
                     </label>
                 </div>
                 <div className="w-full md:w-1/2 px-3">
@@ -355,7 +470,7 @@ function Group_searching_section() {
                 
                 <div className="flex justify-between w-full px-3">
                   <p></p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <button
                         className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded-full"
                         type="submit">
@@ -365,33 +480,6 @@ function Group_searching_section() {
                 </div>
     
             </div>
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </form>
        </div>
       </div><br /><br />
