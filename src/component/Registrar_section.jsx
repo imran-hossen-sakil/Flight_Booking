@@ -4,81 +4,81 @@ function Registrar_section() {
   return (
     <div>
 
-<div class="flex items-center justify-center p-12">
+<div className="flex items-center justify-center p-12">
 
-    <div class="mx-auto w-full max-w-[550px] bg-white">
+    <div className="mx-auto w-full max-w-[550px] bg-white">
     <h1 className='text-center mb-5 mt-6 text-3xl'>Online Flight Booking</h1>
     <h1 className='text-center mb-5 mt-6 text-2xl'>Registration Form</h1>
         <form>
-            <div class="mb-5">
-                <label for="name" class="mb-3 block text-base font-medium text-[#07074D]">
+            <div className="mb-5">
+                <label for="name" className="mb-3 block text-base font-medium text-[#07074D]">
                     Full Name
                 </label>
                 <input type="text" name="name" id="name" placeholder="Full Name"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
             </div>
-            <div class="mb-5">
-                <label for="phone" class="mb-3 block text-base font-medium text-[#07074D]">
+            <div className="mb-5">
+                <label for="phone" className="mb-3 block text-base font-medium text-[#07074D]">
                     Phone Number
                 </label>
                 <input type="text" name="phone" id="phone" placeholder="Enter your phone number"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
             </div>
-            <div class="mb-5">
-                <label for="email" class="mb-3 block text-base font-medium text-[#07074D]">
+            <div className="mb-5">
+                <label for="email" className="mb-3 block text-base font-medium text-[#07074D]">
                     Email Address
                 </label>
                 <input type="email" name="email" id="email" placeholder="Enter your email"
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
             </div>
-            <div class="-mx-3 flex flex-wrap">
-                <div class="w-full px-3 sm:w-1/2">
-                    <div class="mb-5">
-                        <label for="date" class="mb-3 block text-base font-medium text-[#07074D]">
+            <div className="-mx-3 flex flex-wrap">
+                <div className="w-full px-3 sm:w-1/2">
+                    <div className="mb-5">
+                        <label for="date" className="mb-3 block text-base font-medium text-[#07074D]">
                             Date
                         </label>
                         <input type="date" name="date" id="date"
-                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                     </div>
                 </div>
-                <div class="w-full px-3 sm:w-1/2">
-                    <div class="mb-5">
-                        <label for="time" class="mb-3 block text-base font-medium text-[#07074D]">
+                <div className="w-full px-3 sm:w-1/2">
+                    <div className="mb-5">
+                        <label for="time" className="mb-3 block text-base font-medium text-[#07074D]">
                             Time
                         </label>
                         <input type="time" name="time" id="time"
-                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                     </div>
                 </div>
             </div>
 
-            <div class="mb-5 pt-3">
-                <label class="mb-5 block text-base font-semibold text-[#07074D] sm:text-xl">
+            <div className="mb-5 pt-3">
+                <label className="mb-5 block text-base font-semibold text-[#07074D] sm:text-xl">
                     Address Details
                 </label>
-                <div class="-mx-3 flex flex-wrap">
-                    <div class="w-full px-3 sm:w-1/2">
-                        <div class="mb-5">
+                <div className="-mx-3 flex flex-wrap">
+                    <div className="w-full px-3 sm:w-1/2">
+                        <div className="mb-5">
                             <input type="text" name="area" id="area" placeholder="Enter area"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
-                    <div class="w-full px-3 sm:w-1/2">
-                        <div class="mb-5">
+                    <div className="w-full px-3 sm:w-1/2">
+                        <div className="mb-5">
                             <input type="text" name="city" id="city" placeholder="Enter city"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
-                    <div class="w-full px-3 sm:w-1/2">
-                        <div class="mb-5">
+                    <div className="w-full px-3 sm:w-1/2">
+                        <div className="mb-5">
                             <input type="text" name="state" id="state" placeholder="Enter state"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
-                    <div class="w-full px-3 sm:w-1/2">
-                        <div class="mb-5">
+                    <div className="w-full px-3 sm:w-1/2">
+                        <div className="mb-5">
                             <input type="text" name="Country" id="Country" placeholder="Country"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ function Registrar_section() {
 
             <div>
                 <button
-                    class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                    className="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
                   Register Now
                 </button>
             </div>
