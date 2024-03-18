@@ -1,12 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Best_travel_section from './component/Best_travel_section'
 import Top_navbar_section from './component/Top_navbar_section'
 import Navbar_section from './component/Navbar_section'
-import Hero_section from './component/Hero_section';
-import Registrar_section from './component/Registrar_section'
-import Group_searching_section from './component/Group_searching_section'
-import Travel_memories_section from './component/Travel_memories_section'
+import About_section from './component/About_section'
+
 
 
 
@@ -20,11 +17,7 @@ function App() {
 
         < Top_navbar_section />
         < Navbar_section />
-        < Hero_section />
-        < Group_searching_section />
-        < Best_travel_section />
-        < Registrar_section />
-        < Travel_memories_section />
+        < About_section />
 
 
 
