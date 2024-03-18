@@ -191,32 +191,7 @@ function Login_section() {
                       alt="Google"
                     />
                   </button>
-                  {/* <button
-                    href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
-                  >
-                    <img
-                      className="max-w-[25px]"
-                      src="https://ucarecdn.com/95eebb9c-85cf-4d12-942f-3c40d7044dc6/"
-                      alt="Linkedin"
-                    />
-                  </button>
-                  <button
-                    href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
-                  >
-                    <img
-                      className="max-w-[25px]"
-                      src="https://ucarecdn.com/6f56c0f1-c9c0-4d72-b44d-51a79ff38ea9/"
-                      alt="Facebook"
-                    />
-                  </button>
-                  <button
-                    href="#"
-                    className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1">
-                    <img className="max-w-[25px] dark:gray-100"
-                      src="https://ucarecdn.com/82d7ca0a-c380-44c4-ba24-658723e2ab07/"/>
-                  </button> */}
+
                 </div>
                 <div className="text-gray-500 flex text-center flex-col mt-4 items-center text-sm">
                 </div>
