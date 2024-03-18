@@ -17,7 +17,6 @@ function App() {
 
         < Top_navbar_section />
         < Navbar_section />
-        < About_section />
 
 
 

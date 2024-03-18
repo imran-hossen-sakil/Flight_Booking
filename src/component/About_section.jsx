@@ -4,9 +4,6 @@ function About_section() {
   return (
     <div>
 
-
-
-
 <section className="bg-gray-100">
     <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -36,10 +33,6 @@ function About_section() {
         </div>
     </div>
 </section>
-
-
-
-
       
     </div>
   )
