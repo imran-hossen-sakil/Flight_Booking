@@ -81,7 +81,7 @@ function Group_searching_section() {
         <div className="grid grid-cols-1 md:grid-cols-12">
             
         <div className="bg-gray-50 md:col-span-4 p-10 text-gray-900">
-        <ul className="flex flex-col gap-2 max-w-[280px] mx-auto mt-24">
+        <ul className="flex flex-col gap-2 max-w-[280px] mx-auto mt-2">
 
 <li>
     <details className="group">
@@ -475,7 +475,7 @@ function Group_searching_section() {
                         className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded-full"
                         type="submit">
                           
-                       Search for...
+                          &#9992; Search for...
                     </button>
                 </div>
     
