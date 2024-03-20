@@ -21,9 +21,9 @@ function Contact_section() {
                                             data-original="#000000" />
                                     </svg>
                                 </div>
-                                <a target="blank" href="https://veilmail.io/e/FkKh7o" className="text-[#007bff] text-sm ml-3">
+                                <a target="blank" href="#" className="text-[#007bff] text-sm ml-3">
                                     <small className="block">Mail</small>
-                                    <strong>@gmail.com</strong>
+                                    <strong>demo@gmail.com</strong>
                                 </a>
                             </li>
                         </ul>

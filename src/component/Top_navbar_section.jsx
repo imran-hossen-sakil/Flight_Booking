@@ -3,40 +3,25 @@ import React from 'react'
 function Top_navbar_section() {
   return (
     <div>
-      <nav className="lg:px-16 px-6 bg-slate-300 shadow-md flex flex-wrap rounded-br-full rounded-bl-full items-center lg:py-0 py-2">
-          <div className="flex-1 flex justify-between items-center">
-            <a href="#" className="flex text-lg font-semibold">
-              <div className="mt-2 text-White"></div>
-            </a>
-          </div>
-          <label for="menu-toggle" class="cursor-pointer lg:hidden block">
-            <svg className="fill-current text-gray-900"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20">
-              <title>menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-            </svg>
-          </label>
-          <input className="hidden" type="checkbox" id="menu-toggle" />
-          <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-            <nav>
-              <ul className="text-xl text-center items-center gap-x-5 pt-6 pb-6 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
-                <li className="pt-4 lg:py-0 ">
-                  <a className="pt-4 text-black hover:pb-4 hover:border-b-4 hover:border-yellow-400"
-                    href="#">Sing up
-                  </a>
-                </li>
-                <li className="py-2 lg:py-0 ">
-                  <a className="text-black hover:pb-4 hover:border-b-4 hover:border-yellow-400"
-                    href="#">Sing in
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-      </nav>
+     <nav className="bg-gray-100 rounded-br-full rounded-bl-full border-gray-200 dark:bg-gray-900">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <p href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+    </p>
+
+      <a href="#">Support's</a>
+    <div className="w-full md:w-auto" id="navbar-default">
+      <ul className="font-medium flex p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        
+        <li>
+          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sign in</a>
+        </li>
+        <li>
+          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </div>
   )
 }
