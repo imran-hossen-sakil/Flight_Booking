@@ -10,15 +10,15 @@ function Navbar_section() {
     <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
         <a href="#" className="flex items-center">
             <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fairplane_7893979&psig=AOvVaw1_DWHCKqUp3Rz2o5zDYcvW&ust=1711093861010000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCP8sDvhIUDFQAAAAAdAAAAABAJ" className="h-6 mr-3 sm:h-9" alt="Flight Booking"/>
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
         </a>
         <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
                 <span></span>
             </div>
-            <a href="#" class="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
+            <a href="#" className="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
                 Sing In</a>
-            <a href="#" class="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
+            <a href="#" className="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
                 Sing Up</a>
 
             <a href="#"
