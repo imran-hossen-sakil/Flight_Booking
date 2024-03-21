@@ -16,6 +16,10 @@ function Navbar_section() {
             <div className="hidden mt-2 mr-4 sm:inline-block">
                 <span></span>
             </div>
+            <a href="#" class="inline-flex items-center mr-1 px-4 py-2 text-base text-gray-900 bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-50 ">
+                Sing In</a>
+            <a href="#" class="inline-flex items-center mr-1 px-4 py-2 text-base text-gray-900 bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-50 ">
+                Sing Up</a>
 
             <a href="#"
                 className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Contact</a>
