@@ -7,7 +7,6 @@ import Navbar_section from './component/Navbar_section'
 
 
 
-
 function App() {
   const [count, setCount] = useState(0)
 
