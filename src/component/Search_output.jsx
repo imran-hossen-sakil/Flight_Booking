@@ -85,7 +85,7 @@ function Search_output() {
                         </div>
                         </div>
                     </div>
-                    <button type="submit"></button>tt
+                    <button type="submit"></button>
                 </section>
             </section>
         </div>
