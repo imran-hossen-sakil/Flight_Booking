@@ -372,7 +372,7 @@ function Group_searching_section() {
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                    Main destination place <br /> <br /> <input className='bg-gray-50 p-2 border-white rounded-2xl' type="text" name="" id="" />
+                    Main destination place <br /> <br />
                     <input id="search-input" class="block w-full px-4 py-2 text-gray-800 border rounded-md  border-gray-300 focus:outline-none" type="text" placeholder="Search items" autocomplete="off"/>
                     </label>
                 </div>
