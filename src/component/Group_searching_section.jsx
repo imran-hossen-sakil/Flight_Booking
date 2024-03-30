@@ -55,7 +55,7 @@ function Group_searching_section() {
         <div className="relative cursor-pointer p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div className="space-y-2">
                   <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
                     <span className='cursor-pointer'>Round-trip</span>
                   </div>
             </div>
@@ -64,7 +64,7 @@ function Group_searching_section() {
         <div className="relative  p-6 rounded-full border-red-600 bg-white shadow dark:bg-gray-800">
             <div className="space-y-2">
                  <div className="flex items-center space-x-2 rtl:space-x-reverse text-2xl font-medium text-gray-500 dark:text-gray-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-webhook"><path d="M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2"/><path d="m6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06"/><path d="m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8"/></svg>
                     <span className='cursor-pointer'>Multi-City</span>
                 </div>
             </div>
@@ -337,7 +337,6 @@ function Group_searching_section() {
                 <div className="w-full md:w-1/2 px-3">
                 <select className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-8 px-4 leading-tight focus:outline-none focus:bg-gray-200 focus:border-gray-500">
                     <option className='p-2' value="">Going to &#8595;</option>
-                    <option value="">Leaving form &#8595;</option>
                     <option value="">Afghanistan</option>
                     <option value="">Albania</option>
                     <option value="">Algeria</option>
@@ -373,7 +372,29 @@ function Group_searching_section() {
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                     Main destination place <br /> <br />
+
                     <input id="search-input" class="block w-full px-4 py-2 text-gray-800 border rounded-md  border-gray-300 focus:outline-none" type="text" placeholder="Search items" autocomplete="off"/>
+
+                    <select id="search-input" class="block w-full px-4 py-2 text-gray-800 border rounded-md  border-gray-300 focus:outline-none" type="text" placeholder="Search items" autocomplete="off">
+                    <option value="">Leaving form &#8595;</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Albania</option>
+                    <option value="">Algeria</option>
+                    <option value="">Andorra</option>
+                    <option value="">Angola</option>
+                    <option value="">Antigua and Barbuda</option>
+                    <option value="">Argentina</option>
+                    <option value="">Armenia</option>
+                    <option value="">Australia</option>
+                    <option value="">Austria</option>
+                    <option value="">Azerbaijan</option>
+                    <option value="">Bahamas</option>
+                    <option value="">Bahrain</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Barbados</option>
+                    <option value="">Belarus</option>
+                    </select>
+
                     </label>
                 </div>
                 <div className="w-full md:w-1/2 px-3">
