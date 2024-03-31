@@ -43,8 +43,8 @@ const Navbar = () => {
           <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
           <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
           <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-800 p-2 rounded-3xl hover:bg-slate-100">Sing In</a>
-          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-800 p-2 rounded-3xl hover:bg-slate-100">Sing Up</a>
+          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-400 p-2 rounded-3xl hover:bg-slate-100">Sing In</a>
+          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-400 p-2 rounded-3xl hover:bg-slate-100">Sing Up</a>
         </div>
       </div>
     </nav>
