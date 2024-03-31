@@ -1,73 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-function Navbar_section() {
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div>
-
-
-
-  <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
-    <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-        <a href="#" className="flex items-center">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fairplane_7893979&psig=AOvVaw1_DWHCKqUp3Rz2o5zDYcvW&ust=1711093861010000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCP8sDvhIUDFQAAAAAdAAAAABAJ" className="h-6 mr-3 sm:h-9" alt="Flight Booking"/>
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
-        </a>
-        <div className="flex items-center lg:order-2">
-            <div className="hidden mt-2 mr-4 sm:inline-block">
-                <span></span>
+    <nav className="bg-gray-300">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between h-16">
+          <div className="flex-shrink-0 flex items-center">
+            <a href="/" className="text-black text-2xl font-bold">Logo</a>
+          </div>
+          <div className="hidden md:block">
+            <div className="ml-10 mt-4 flex items-baseline space-x-4">
+              <a href="/" className=" hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="/" className="text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="/" className="text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="/" className="text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="/" className="text-black hover:text-red-900 px-3 py-2 text-sm font-medium bg-orange-200 p-2 rounded-3xl">Sing In</a>
+              <a href="/" className="text-black hover:text-red-900 px-3 py-2 text-sm font-medium bg-orange-200 p-2 rounded-3xl">Sing Up</a>
             </div>
-            <a href="#" className="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
-                Sing In</a>
-            <a href="#" className="inline-flex items-center mr-1 px-4 py-2 text-base text-white bg-gray-400 border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-500 ">
-                Sing Up</a>
-
-            <a href="#"
-                className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Contact</a>
-            <button data-collapse-toggle="mobile-menu-2" type="button"
-				className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-				aria-controls="mobile-menu-2" aria-expanded="true">
-				<span className="sr-only">Open main menu</span>
-				<svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<path fill-rule="evenodd"
-						d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-						clip-rule="evenodd"></path>
-				</svg>
-				<svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<path fill-rule="evenodd"
-						d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-						clip-rule="evenodd"></path>
-				</svg>
-			</button>
+          </div>
+          <div className="md:hidden flex items-center">
+            <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <span className="sr-only">Open main menu</span>
+              <svg className={`${isOpen ? 'hidden' : 'block'} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <svg className={`${isOpen ? 'block' : 'hidden'} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
         </div>
-        <div className="items-center justify-between gap-10 w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                <li>
-                    <a href="#"
-                        className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
-                        aria-current="page">Home</a>
-                </li>
-                <li>
-                    <a href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Abour</a>
-                </li>
-                <li>
-                    <a href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Offers</a>
-                </li>
-                <li>
-                    <a href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Seals</a>
-                </li>
-                <li>
-                    <a href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Destinations</a>
-                </li>
-            </ul>
+      </div>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+          <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+          <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+          <a href="/" className="text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-800 p-2 rounded-3xl hover:bg-slate-100">Sing In</a>
+          <a href="/" className="text-black hover:text-red-900 w-24 block px-3 text-center py-2 text-sm font-medium bg-fuchsia-800 p-2 rounded-3xl hover:bg-slate-100">Sing Up</a>
         </div>
-    </div>
-  </nav>  
-    </div>
-  )
-}
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar_section
+export default Navbar;
